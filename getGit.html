@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Search GitHub User</title>
+        <link rel="stylesheet" type="text/css" href="getGit.css">
+    </head>
+    <body>
+        <section>
+            <h1>Search GitHub User</h1>
+            <div class="search">
+                <input type="text" placeholder="user id" id="inputSearch">
+                <button class="add" onclick="searchUser()">Search</button>
+            </div>            
+            <div class="container" id="repos">                                               
+            </div>
+        </section>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="getGit.js"></script>
+    </body>
+</html>

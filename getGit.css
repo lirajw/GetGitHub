@@ -1,0 +1,147 @@
+body {
+
+    margin: 0px;
+    padding: 0px;
+    background-color: #121214;
+}
+
+h1 {
+    margin-bottom: 5px;
+    color: #e1e1e6;
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.container{
+    height: auto;
+    width: 600px;
+    min-height: 400px;
+    padding: 10px;
+    margin: 5px auto;
+    background-color: #8257e6;
+    margin: 0px auto;
+    border-radius: 5px;
+    
+}
+
+.search, section{
+    height: auto;
+    width: 900px;
+    margin: 5px auto 15px auto;
+}
+
+.add{
+    height: 64px;
+    width: 150px;
+    padding: 5px;
+    margin: 0px;
+    background-color: #8257e6;
+
+    border: none;
+    border-radius: 5px;
+    
+    font-size: 16px;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+
+    position: relative;    
+    left: 229px;
+}
+
+#inputSearch{
+    height: 40px;
+    width: 300px;
+    padding: 5px;
+    margin: 0px;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-family:  Arial, Helvetica, sans-serif;
+    color: #2b2a2a;
+    font-weight: bold;
+    text-align: center;
+
+    position: relative;
+    left: 197px;
+}
+
+.aguarde{
+    height: 54px;
+    width: 270px;
+    font-size: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+
+    position: relative;
+    top:200px;
+    left:300px;
+
+    margin-top: -27px;
+    margin-left: -125px;
+
+}
+
+.notFound{
+    height: 54px;
+    width: 100%;
+    font-size: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+
+    position: relative;
+    top:200px;
+    left:300px;
+
+    margin-top: -27px;
+    margin-left: -125px;
+
+}
+
+.erro{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+li {
+    list-style-type: none;
+    margin: 5px 0px 10px 0px;
+}
+
+a{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0px;    
+    padding: 0px;
+    color: #ffffff;
+
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
